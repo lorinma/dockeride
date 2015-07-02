@@ -9,7 +9,7 @@ RUN ln -sf /usr/src/dockeride/.vim ~/.vim
 RUN ln -sf /usr/src/dockeride/.vimrc ~/.vimrc
 
 # add CPP env
-apt-get install -y --force-yes --no-install-recommends build-essential cmake cmake-curses-gui
+RUN apt-get install -y --force-yes --no-install-recommends build-essential cmake cmake-curses-gui
 
 # add python env
-apt-get install -y --force-yes --no-install-recommends python-software-properties software-properties-common python-dev python-pip
+RUN apt-get install -y --force-yes --no-install-recommends python-software-properties software-properties-common python-dev python-pip
