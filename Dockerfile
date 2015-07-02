@@ -5,5 +5,5 @@ RUN apt-get update -y; \
 WORKDIR usr/src/
 RUN git clone --recursive https://github.com/lorinma/dockeride.git /usr/src/dockeride
 RUN ln -sf /usr/src/dockeride/.bashrc /.bashrc
-RUN source /usr/src/dockeride/.bashrc
+#RUN source /usr/src/dockeride/.bashrc
 
