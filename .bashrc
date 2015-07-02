@@ -1,5 +1,5 @@
 alias c='clear'
-source ".bash-git-prompt/gitprompt.sh"
+source "/usr/src/dockeride/.bash-git-prompt/gitprompt.sh"
 # added by Miniconda3 3.10.1 installer
 #export PATH="/Users/Ling/miniconda3/bin:$PATH"
 #alias pp='cd /Users/Ling/Projects'
