@@ -1,7 +1,7 @@
 from phusion/baseimage:0.9.16
 MAINTAINER lorinma <malingreal [at] gmail {dot} com>
 RUN apt-get update -y; \
-    apt-get install -y --force-yes --no-install-recommends curl git 
+    apt-get install -y --force-yes --no-install-recommends curl git unzip tree subversion
 WORKDIR usr/src/
 RUN git clone --recursive https://github.com/lorinma/dockeride.git /usr/src/dockeride
 RUN cd /usr/src/dockeride; git checkout dev
