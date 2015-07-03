@@ -4,6 +4,7 @@ source "/Users/Ling/Projects/dockeride/.bash-git-prompt/gitprompt.sh"
 alias ll='ls -al'
 alias gcl='git clone'
 alias gal='git add .'
+alias gs='git status'
 alias gcm='gal; git commit -m'
 alias gpush='git push --all origin'
 
