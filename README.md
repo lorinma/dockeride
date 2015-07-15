@@ -1,2 +1,3 @@
 # dockeride
-My .vim and .bashrc setup in mac
+My IDE in docker image
+with vim and bash setup
