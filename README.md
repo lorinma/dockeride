@@ -9,3 +9,9 @@ ln -sf .vimrc $HOME/.vimrc
 ln -sf .vim $HOME/.vim
 
 ln -sf .bashrc $HOME/.bashrc
+
+open vim and install bundles:
+
+:PluginList
+
+:PluginInstall
