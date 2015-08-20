@@ -2,7 +2,7 @@
 My dotfiles in docker image
 with vim and bash setup
 
-instruction:
+## instruction:
 
 ln -sf .vimrc $HOME/.vimrc
 
@@ -10,8 +10,6 @@ ln -sf .vim $HOME/.vim
 
 ln -sf .bashrc $HOME/.bashrc
 
-open vim and install bundles:
+## or use my docker image:
 
-:PluginList
-
-:PluginInstall
+docker run -it lorinma/dockeride bash
