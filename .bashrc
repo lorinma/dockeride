@@ -1,5 +1,5 @@
 alias c='clear'
-source "/home/ling/Projects/dockeride/.bash-git-prompt/gitprompt.sh"
+source "/usr/src/dockeride/.bash-git-prompt/gitprompt.sh"
 alias ll='ls -al'
 alias gcl='git clone'
 alias gal='git add .'
@@ -8,5 +8,5 @@ alias gpush='git push --all origin'
 alias condasimcon='source activate simcon'
 alias condaback='source deactivate'
 
-# added by Miniconda 3.16.0 installer
+# added by Miniconda2 3.18.3 installer
 export PATH="/home/ling/miniconda/bin:$PATH"

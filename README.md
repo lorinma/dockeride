@@ -4,11 +4,8 @@ with vim and bash setup
 
 ## instruction:
 
-ln -sf .vimrc $HOME/.vimrc
-
-ln -sf .vim $HOME/.vim
-
-ln -sf .bashrc $HOME/.bashrc
+ln -sf /usr/src/dockeride/.bashrc ~/.bashrc; ln -sf /usr/src/dockeride/.vim ~/.vim; ln -sf
+/usr/src/dockeride/.vimrc ~/.vimrc
 
 ## or use my docker image:
 
