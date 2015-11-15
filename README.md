@@ -4,8 +4,8 @@ with vim and bash setup
 
 ## instruction:
 
-ln -sf /usr/src/dockeride/.bashrc ~/.bashrc; ln -sf /usr/src/dockeride/.vim ~/.vim; ln -sf
-/usr/src/dockeride/.vimrc ~/.vimrc
+sudo git clone https://github.com/lorinma/dockeride.git /usr/src/dockeride; 
+ln -sf /usr/src/dockeride/.bashrc ~/.bashrc; ln -sf /usr/src/dockeride/.vim ~/.vim; ln -sf /usr/src/dockeride/.vimrc ~/.vimrc
 
 ## or use my docker image:
 
