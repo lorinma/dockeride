@@ -3,7 +3,7 @@ MAINTAINER Ling Ma <malingreal@gmail.com>
 # WORKDIR usr/local/src/
 
 #add python env
-RUN apt-get install -y --force-yes --fix-missing --no-install-recommends python-software-properties software-properties-common python-dev python-pip
+RUN apt-get install -y --force-yes --fix-missing --no-install-recommends python-dev python-pip
 RUN pip install ipdb
 
 # #add CPP env
