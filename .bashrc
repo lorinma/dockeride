@@ -6,6 +6,7 @@ alias gal='git add .'
 alias gcm='gal; git commit -m'
 alias gpush='git push --all origin'
 alias condasimcon='source activate simcon'
+alias condaifc='source activate ifc'
 alias condaback='source deactivate'
 
 # added by Miniconda2 3.18.3 installer
