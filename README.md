@@ -1,8 +1,6 @@
 # dockeride
-[![Docker Repository on Quay](https://quay.io/repository/lorinma/dockeride/status "Docker
-Repository on Quay")](https://quay.io/repository/lorinma/dockeride)
-[![](https://badge.imagelayers.io/lorinma/dockeride:latest.svg)](https://imagelayers.io/?images=lorinma/dockeride:latest
-'Get your own badge on imagelayers.io')
+[![Docker Repository on Quay](https://quay.io/repository/lorinma/ide/status "Docker Repository on
+Quay")](https://quay.io/repository/lorinma/ide)
 
 My dotfiles in docker image
 with vim and bash setup
