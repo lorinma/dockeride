@@ -4,7 +4,7 @@ MAINTAINER lorinma <malingreal [at] gmail {dot} com>
 
 # add CPP env
 RUN apt-get update -y
-RUN curl https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -0 miniconda.sh; bash miniconda.sh -b -p $HOME/miniconda; 
+RUN wget –quiet -O miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh; bash miniconda.sh -b -p $HOME/miniconda;
 ENV PATH $HOME/miniconda/bin:$PATH
 RUN rm -rf miniconda.sh
 
