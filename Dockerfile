@@ -3,7 +3,7 @@ MAINTAINER lorinma <malingreal [at] gmail {dot} com>
 # WORKDIR usr/local/src/
 
 # add CPP env
-RUN apt-get update -y
+RUN apt-get update -y; apt-get install wget -y --force-yes --fix-missing --no-install-recommends;
 RUN wget –quiet -O miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh; bash miniconda.sh -b -p $HOME/miniconda;
 ENV PATH $HOME/miniconda/bin:$PATH
 RUN rm -rf miniconda.sh
