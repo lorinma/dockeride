@@ -7,9 +7,8 @@ with vim and bash setup
 
 ## instruction:
 
-sudo git clone https://github.com/lorinma/dockeride.git /usr/src/dockeride; 
-ln -sf /usr/src/dockeride/.bashrc ~/.bashrc; ln -sf /usr/src/dockeride/.vim ~/.vim; ln -sf /usr/src/dockeride/.vimrc ~/.vimrc; source ~/.bashrc
+sudo git clone https://github.com/lorinma/dockeride.git /usr/src/dockeride; ln -sf /usr/src/dockeride/.bashrc ~/.bashrc; ln -sf /usr/src/dockeride/.vim ~/.vim; ln -sf /usr/src/dockeride/.vimrc ~/.vimrc; wget –quiet -O miniconda.sh https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh; bash miniconda.sh -b -p $HOME/miniconda; rm -rf miniconda.sh; source ~/.bashrc;
 
 ## or use my docker image:
 
-docker run -it lorinma/dockeride bash
+docker run -it quay.io/lorinma/ide bash
