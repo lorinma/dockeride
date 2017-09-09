@@ -3,7 +3,7 @@
 Quay")](https://quay.io/repository/lorinma/ide)
 
 My dotfiles in docker image
-with vim and bash setup
+with vim and bash setup in Ubuntu
 
 ## instruction:
 
